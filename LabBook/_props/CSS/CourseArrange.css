@@ -1,0 +1,54 @@
+﻿#CourseName
+{
+    color:#6E3594;
+    font:18px 微软雅黑 bold;
+    margin:50px;
+}
+#SelectWeek label
+{
+    color:#6E3594;
+    font:18px 微软雅黑;
+    font-weight:600;
+    margin-left:50px;
+}
+#SelectWeek select
+{
+    width:160px;
+    font:15px 微软雅黑;
+    position:relative;
+    top:-3px;
+}
+#SelectTime
+{
+    width:960px;
+}
+#SelectTime tr td
+{
+    padding:16px;
+    text-align:center;
+}
+
+.SetCapacity
+{
+    width:40px;
+    margin-left:10px;
+    color:#555;
+    font:15px 微软雅黑;
+}
+#submit
+{
+    position:relative;
+    top:20px;
+    left:900px;
+    width:88px;
+    height:28px;
+    color:#f3e7fa;
+    cursor:pointer;
+    font:18px 微软雅黑 bold;
+    border:none;
+    background:#b580d2;
+}
+.selected
+{
+    background-color:Red;
+}

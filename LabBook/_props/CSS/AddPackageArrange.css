@@ -1,0 +1,33 @@
+﻿.PackageName
+{
+    margin:30px 0px 30px 20px;
+    font-size:18px;
+    font-weight:bold;
+}
+.addbox
+{
+    margin-bottom:24px;
+}
+.addItem
+{
+    width:200px;
+    text-align:right;  
+    float:left;
+    font:20px 微软雅黑;
+    color:#6e3594;
+    text-align:right;
+    padding-right:20px;
+}
+.submit
+{
+    position:relative;
+    top:30px;
+    left:180px;
+    width:100px;
+    height:32px;
+    color:#f3e7fa;
+    font:18px 微软雅黑 bold;
+    border:none;
+    background:#b580d2;
+    cursor:pointer;
+}

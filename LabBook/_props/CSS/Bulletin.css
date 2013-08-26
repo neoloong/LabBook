@@ -1,0 +1,39 @@
+﻿#header
+{
+    height:116px;
+}
+.BullinMain
+{
+    width:780px;
+    margin:50px auto;
+    padding:20px;
+    background:#e4e6e0;
+    color:#000;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+}
+.bulletinTitle
+{
+    font-size:18px;
+    font-family:微软雅黑;
+    font-weight:bold;
+    position:relative;
+    top:14px;
+    left:20px;
+}
+.releaser
+{
+    width:900px;
+}
+
+.data
+{
+    font:14px "微软雅黑";
+    margin:40px 0px 0px 20px;;
+}
+.bulletinContent
+{
+    width:700px;
+    margin:20px;
+    text-indent:30px;
+}

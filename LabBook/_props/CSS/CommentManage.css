@@ -1,0 +1,28 @@
+﻿.massage
+{
+    width:860px;
+    background:#eee6f3;
+    padding:5px 10px 30px 10px;
+    margin-top:50px;
+    margin-left:60px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+}
+.MassageBox
+{
+    margin-top:10px;
+    font:16px 微软雅黑; 
+    border-bottom:1px dashed #caaee4;
+}
+.MassageContent
+{
+    padding:20px;
+    text-indent:30px;
+}
+.MassageFooter
+{
+    margin:8px 50px;
+    font-size:14px;
+    float:right;
+    color:#7836a2;
+}

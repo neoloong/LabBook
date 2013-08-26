@@ -1,0 +1,146 @@
+﻿html 
+{ 
+    background: #63bad8;  
+    text-align: center; 
+}
+body { 
+    text-align: center;  
+    font: 12px 'Lucida Grande',lucida,helvetica,arial,sans-serif;  
+    color: #333333;  
+    padding: 0px;  
+    margin: 0 auto;  
+}
+#wrappertop{
+    width: 800px;
+    height: 20px;
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+}
+
+#wrapper{
+    width: 800px;
+    padding: 0 20px 0 20px;
+    position:absolute;
+    top:25%;
+}
+#Recovered{
+    width: 800px;
+    background-color: #fff;
+    text-align: left;  
+}
+
+/* HEADER */
+
+#header {
+    width: 780px; 
+    background: #c5e6ea;
+    padding: 15px 0 15px 20px;
+    border-bottom: #b2ccd0 solid 1px;   
+}
+h1{                      
+    display: inline;
+    width: 220px;
+    color:#083d56;
+    font: bold 24px 微软雅黑;
+    
+}
+
+#darkbanner{
+    margin: 20px 0 0 -18px;
+    padding: 8px 10px 10px 40px;
+    background: #424242;
+    position: relative;
+}
+#darkbannerwrap{
+    background: url(../images/aiwrap.png);
+    width: 18px;
+    height: 10px;
+    margin: 0 0 20px -18px;
+    position: relative;
+}
+
+.banner320{
+    width: 320px;
+}
+
+h2{
+    font: bold 24px helvetica, arial, sans-serif;
+    color: #fff;
+    display: inline;
+    margin-left: 10px;
+}
+
+fieldset{
+    padding:50px 20px;
+    display: block;
+    position: relative; 
+}
+.form p
+{
+    font: bold 20px helvetica, arial, sans-serif;
+    color: #fff;
+    margin:20px 2px;
+}
+body#FindPwd {  
+    width: 410px; 
+    margin-top:100px;
+}
+body#FindPwd #wrappertop{
+    width: 370px;
+}
+body#FindPwd #wrapperbottom{
+    width: 370px;
+}   
+body#FindPwd #wrapperbottom_branding{
+        width: 370px;
+        padding: 0 20px 0 20px;  
+}
+body#FindPwd #wrapperbottom_branding_text{
+        width: 370px;
+        background-color: #fff;
+        padding-top: 3px;  
+        padding-bottom: 10px;
+        color: #C0C0C0; 
+        font: 11px 'Lucida Grande', arial, sans-serif;
+}
+body#FindPwd #wrapperbottom_branding_text a{
+        color: #C0C0C0; 
+}
+body#FindPwd #wrapper{
+    width: 370px;
+    padding: 0 20px 0 20px;
+}
+body#FindPwd #Recovered{
+    width: 370px;
+}
+body#FindPwd #header {
+    width: 350px;
+}
+body#FindPwd fieldset{
+    width: 330px;
+    border: 0;
+    margin: 0px;
+    display: block;
+    margin-top: -30px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+body#FindPwd fieldset p{
+    color: #333333;
+}
+body#FindPwd input{
+    height: 20px;
+    width: 238px;
+    margin-bottom: 15px;
+    padding: 3px;
+    font: 16px 微软雅黑;
+}
+body#FindPwd input.submit
+{
+    width:80px;
+    height:26px;
+    color:#fff;
+    background:#92c97c;
+    margin-left:20px;
+    border:none;
+}

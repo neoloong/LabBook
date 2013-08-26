@@ -1,0 +1,52 @@
+﻿.AddCourse
+{
+    margin:50px 0px 100px 50px;
+    font:15px 微软雅黑;
+}
+.addbox
+{
+    margin-bottom:24px;
+}
+.addItem
+{
+     width:180px;
+    float:left;   
+    display:inline;
+    font:20px 微软雅黑;
+    color:#6e3594;
+    text-align:right;
+    padding-right:20px;
+}
+.inputArea
+{
+    width:300px;
+    height:24px;
+    font:16px 微软雅黑;
+}
+.Introduction
+{
+    font:16px 微软雅黑;
+}
+.ClassHour,.TeacherId
+{
+    width:200px;
+}
+.submit
+{
+    position:relative;
+    top:30px;
+    left:180px;
+    width:100px;
+    height:32px;
+    color:#f3e7fa;
+    font:18px 微软雅黑 bold;
+    border:none;
+    background:#b580d2;
+    cursor:pointer;
+}
+
+.attention
+{
+    margin-left:20px;
+    color:#6E3594;    
+}

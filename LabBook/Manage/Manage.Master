@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manage.master.cs" Inherits="LabBook.Manage.Manage"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="../_props/JS/jquery-1.6.3.min.js" type="text/javascript"></script>
+    <script src="../_props/JS/getUrlParameters.js" type="text/javascript"></script>
+    <link href="../_props/css/MasterOfManage.css" rel="stylesheet" type="text/css" />
+    <%--ueditor--%>
+    <script type="text/javascript" charset="utf-8" src="../ueditor/editor_config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../ueditor/editor_all.js"></script>
+    <link rel="stylesheet" type="text/css" href="../ueditor/themes/default/ueditor.css" />
+    <%--ueditor--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="header">
+    <p>光电子科学与工程学院实验预约系统管理页面</p>
+    <a href="../Home.aspx">返回预约界面</a>
+    </div>
+    <div id="content" class="fix">
+        <div id="nav">
+        <ul>
+            <li><a href="BulletinManage.aspx">通知公告管理</a></li>  
+            <li><a href="ExperimentManage.aspx">实验管理</a></li>  
+            <li><a href="http://www.uyan.cc/comment/all?dm=202.114.20.91">留言管理</a></li>  
+            <li><a href="AddStudents.aspx">学生名单上传</a></li> 
+            <%if (User.Type == 0)
+              { %> 
+            <li><a href="StudentsManage.aspx">学生信息管理</a></li>  
+            <li><a href="TeachersManage.aspx">教师信息管理</a></li>        
+            <%} %>
+        </ul>
+        </div>
+        <div id="MainContent">
+            <div id="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

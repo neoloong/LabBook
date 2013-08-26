@@ -1,0 +1,166 @@
+﻿.slider-wrapper {
+	width:850px;
+	height:470px;
+	padding:20px 0 0 130px;
+	margin-top:-120px;
+	position:relative;
+	overflow:hidden;
+	background:url(../images/slider-bg.png) 0 0 no-repeat;
+}
+.slider {
+	position:relative;
+	width:830px;
+	height:431px;
+	overflow:hidden;
+}
+
+.pagination {
+	position:absolute;
+	left:30px;
+	top:20px;
+	z-index:99;
+}
+.pagination li 
+{
+    display:block;
+	width:101px;
+	height:70px;
+	text-decoration:none;
+	text-align:center;
+	color:#fff;
+	background:url(../images/pagination-a.png) left bottom no-repeat;
+	position:relative;
+	cursor:default;
+}
+
+.on
+{background-position:left top;}
+
+.pagination li strong 
+{
+	display:block;
+	width:50px;
+	height:50px;
+	font-size:30px;
+	line-height:50px;
+	letter-spacing:-2px;
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+.pagination .item-1 strong {background:url(../images/pagin-1.png) 0 0 no-repeat}
+.pagination .item-2 strong {background:url(../images/pagin-2.png) 0 0 no-repeat}
+.pagination .item-3 strong {background:url(../images/pagin-3.png) 0 0 no-repeat}
+.pagination .item-4 strong {background:url(../images/pagin-4.png) 0 0 no-repeat}
+
+.mainOfContent
+{
+    width:986px;  
+
+}
+
+.news
+{
+    width:420px;
+    height:301px;
+    margin-top:52px;
+    margin-left:40px;
+    margin-right:25px;
+    float:left;   
+    border:1px #eaeae9 solid;
+    background:#f1f1ef;
+}
+.hnews
+{
+    position:relative;
+    top:14px;
+    left:18px;
+    width:193px;
+    height:74px;
+    font:"微软雅黑" 16px;
+    font-weight:bold;
+    background:url(../images/news_title_bg.png) no-repeat;
+    text-indent:-9999px;
+}
+.newsList
+{
+    width:298px;
+    padding-top:5px;
+}
+.newsList a
+{
+    color:#5f605e;
+    font:16px "微软雅黑";
+}
+.newsList a:hover
+{
+    text-decoration:none;
+    color:#78a70d;
+}
+.newsList .newsDate
+{
+    color:#74BC02;
+    margin-right:9px;
+}
+
+.more
+{
+    position:relative;
+    top:-24px;
+    left:300px;
+    font-weight:bold;
+    font:"微软雅黑" 16px;
+}
+.more a
+{
+    color:#838482;
+}
+.more a:hover
+{
+    text-decoration:none;
+    font-style:italic;
+    color:#78a70d;
+}
+p.newsList
+{
+    position:relative;
+    left:40px;
+    color:#fff;
+    font:"微软雅黑" 14px;
+}
+
+.ExperimentSort
+{
+    float:left;
+    width:360px;
+    margin:60px 30px;
+}
+.expriment
+{
+     width:363px;
+     height:74px;
+     text-indent:-9999px;
+     background:url(../images/experiment_sort_bg.png) no-repeat;
+}
+.ExprimentItem
+{
+    margin:10px 40px;
+}
+.listTitle
+{
+    width:320px;
+    font-family:微软雅黑;
+    font-size:16px;
+    text-indent:10px;
+    margin-left:20px;
+    padding:10px 0px;
+    border-bottom:dotted 1px #dfdfdd;
+}
+.listTitle a
+{
+    color:gray;
+}
+.listTitle a:hover
+{
+    color:#78a70d;
+}

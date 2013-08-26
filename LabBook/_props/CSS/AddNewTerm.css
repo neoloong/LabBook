@@ -1,0 +1,29 @@
+﻿form
+{
+    margin:50px;
+}
+#SchoolYear
+{
+    width:200px;
+    font-size:18px;
+    font-weight:bold;
+}
+#Season
+{
+    width:200px;
+    font-size:18px;
+    font-weight:bold;
+    margin-left:20px;
+}
+#submit
+{
+    display:block;
+    margin-top:40px;
+    padding:3px 20px;
+    cursor:pointer;
+    color:#f3e7fa;
+    font:18px 微软雅黑 bold;
+    border:none;
+    cursor:pointer;
+    background:#b580d2;    
+}

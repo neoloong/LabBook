@@ -1,0 +1,102 @@
+﻿#header
+{
+    height:116px;
+}
+
+.ExperimentSort
+{
+    width:900px;
+    margin:20px auto;
+}
+
+label.sort
+{
+    width:150px;
+    float:left;
+    color:#000;
+    font-size:26px;
+    font-weight:bold;
+    font-family:"微软雅黑";
+}
+form.Select
+{
+    float:left;
+}
+.experiment
+{
+    width:220px;
+    height:28px;
+    font-size:16px;
+    font-family:微软雅黑;
+    background: transparent;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    overflow: hidden;
+    background: url(../images/select.png) no-repeat right #ececec;
+}
+.ListHead
+{
+    color:#000;
+    font-family:"微软雅黑";
+    font-weight:bold;
+    font-size:16px;
+    margin:50px 0 20px 50px;
+}
+.ExperimentTable,.ExperimentPackageTable
+  {
+  width:880px;
+  margin:0px auto;
+  border-collapse:collapse;
+  }
+
+.ExperimentTable td, .ExperimentTable th,.ExperimentPackageTable td,.ExperimentPackageTable th  
+  {
+  font-size:1em;
+  font-family:"微软雅黑";
+  color:#000;
+  border:1px solid #a6d44c;
+  padding:3px 7px 2px 7px;
+  }
+
+.ExperimentTable th,.ExperimentPackageTable th 
+  {
+  font-size:1.1em;
+  font-weight:bold;
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#658816;
+  color:#fff;
+  }
+
+.ExperimentTable tr.alt td ,.ExperimentPackageTable tr.alt td
+  {
+  color:#000000;
+  background-color:#EAF2D3;
+  }
+ 
+  .Title
+  {
+      width:482px;
+  }
+  Table a
+  {
+      color:#568a0f;
+  }
+  Table a:hover
+  {
+      color:#2b3c05;
+      text-decoration:underline;
+  }
+  .ExperimentPackageTable
+ {
+     table-layout:fixed;
+     margin-bottom:50px;
+ }
+ #ajax_div1,#ajax_div2
+ {
+     text-align: center;
+     position:relative;
+     top:40px;
+     padding-bottom:20px;
+ }

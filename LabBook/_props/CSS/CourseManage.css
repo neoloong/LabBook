@@ -1,0 +1,51 @@
+﻿.course
+{
+  width:920px;
+}
+.courseTitle
+{
+    width:540px;
+}
+
+.addbox
+{
+    margin-bottom:24px;
+}
+.addItem
+{
+    width:180px;
+    float:left;   
+    display:inline;
+    font:18px 微软雅黑;
+    color:#6e3594;
+    text-align:right;
+    padding-right:20px;
+}
+.inputArea
+{
+    width:300px;
+    height:22px;
+    font:16px 微软雅黑;
+}
+.Introduction
+{
+    font:16px 微软雅黑;
+}
+.AddFile
+{
+    width:200px;
+    height:20px;
+}
+.submit
+{
+    position:relative;
+    top:20px;
+    left:180px;
+    width:80px;
+    height:28px;
+    color:#f3e7fa;
+    font:18px 微软雅黑 bold;
+    border:none;
+    background:#b580d2;
+    cursor:pointer;
+}

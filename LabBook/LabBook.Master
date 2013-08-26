@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LabBook.master.cs" Inherits="LabBook.LabBook" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="_props/js/jquery.min.js" type="text/javascript"></script>
+    <script src="_props/JS/master.js" type="text/javascript"></script>
+    <script src="_props/JS/getUrlParameters.js" type="text/javascript"></script>
+    <%--<script src="_props/JS/jquery.cookie.js" type="text/javascript"></script>--%>
+    <%--ueditor--%>
+    <script type="text/javascript" charset="utf-8" src="./ueditor/editor_config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./ueditor/editor_all.js"></script>
+    <link rel="stylesheet" type="text/css" href="./ueditor/themes/default/ueditor.css" />
+    <%--ueditor--%>
+    <link href="_props/css/master.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="warning" id="warning">
+        <div class="ieAlarm">
+            您正在使用IE6或IE7内核的浏览器，为了您更高的浏览体验，推荐您使用chrome/FireFox/Opara/IE8/IE9等浏览器来浏览本网站！<span style="cursor: pointer;
+                margin-left: 80px;" onclick="$(this).parent().parent().fadeOut(500)">X</span></div>
+    </div>
+    <div id="header">
+        <div class="loginState">
+            <%if (User.Type == 0 || User.Type == 3)
+              {%>
+            <a href="Manage/ExperimentManage.aspx" class="log">管理</a>
+            <% }%>
+            
+            <a href="Logout.aspx" target="_parent" class="log">退出</a>
+          
+        </div>
+        <div class="wrapper">
+            <p>
+                光电子科学与工程学院实验预约系统</p>
+            <div class="nav">
+                <ul class="menu">
+                    <li class="actived"><a href="Home.aspx" title="首 页">首 页</a></li>
+                    <li><a href="SelectCourse.aspx" title="实验预约">实验预约</a></li>
+                    <li><a href="AllBulletins.aspx" title="通知公告">通知公告</a></li>
+                    <% if (User.Type == 1)
+                       { %>
+                    <li><a href="OrderState.aspx" title="个人中心">个人中心</a></li>
+                    <%} %>
+                    <li><a href="TeacherInfo.aspx" title="教师介绍">教师介绍</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="main fix">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="copyright">
+            <span class="state links"><a href="http://www.hust.edu.cn/">华中科技大学 </a>| <a href="http://oei.hust.edu.cn/">
+                光学与电子信息学院</a> | <a href="http://www.zuiwan.net/">醉晚亭</a> | <a href="http://www.auhust.net/">
+                    社团网</a></span> <span class="state">华中科技大学主校区127号信箱 &nbsp电话：87543855 62734512
+            </span><span class="state">© Copyright <a href="http://www.sicun.org">
+                <img src="_props/images/sicun.jpg" alt="Sicun Studio" /><span class="sicun">思存工作室 Sicun
+                    Studio</span></a></span>
+        </div>
+    </div>
+</body>
+</html>

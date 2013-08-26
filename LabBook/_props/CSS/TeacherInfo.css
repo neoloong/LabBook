@@ -1,0 +1,48 @@
+﻿#header
+{
+    height:116px;
+}
+.HeadOfTeacherInfo
+{
+   width:900px;
+    margin:20px 43px;
+    color:#000;
+    font-size:26px;
+    font-family:"微软雅黑";
+    font-weight:bold;
+}
+.teachers
+{
+    width:920px;
+    color:#000;
+    margin:50px;
+}
+.teacherInfo
+{
+    float:left;
+    margin-left:72px;
+    margin-top:30px;
+}
+.photo
+{
+    width:132px;
+    height:176px;
+}
+.teacherName
+{
+    text-align:center;
+    margin-top:10px;
+}
+.details
+{
+    width:350px;
+    
+    padding:30px;
+    overflow:auto;
+}
+p.info
+{
+    font:16px 微软雅黑;
+    line-height:26px;
+    word-spacing:10px;
+}

@@ -1,0 +1,97 @@
+﻿.ChooseTerm
+{
+    margin:50px;
+}
+.ChooseTerm label
+{
+    font:18px 微软雅黑 bold;
+    color:#6e3594;
+    margin-right:20px;
+}
+.ChooseTerm select
+{
+    width:200px;
+}
+#deleteTerm
+{
+    width:68px;
+    height:24px;
+    color:#f3e7fa;
+    margin-left:20px;
+    cursor:pointer;
+    font:16px 微软雅黑 bold;
+    border:none;
+    background:#b580d2;
+}
+.Sort
+{
+  width:920px;
+}
+.SortTitle
+{
+    width:500px;
+}
+.AddSort
+{
+    margin:50px;
+    display:none;
+}
+.addbox
+{
+    margin-bottom:24px;
+}
+.addItem
+{
+    width:128px;
+    float:left;   
+    display:inline;
+    font:18px 微软雅黑;
+    color:#6e3594;
+    text-align:right;
+    padding-right:20px;
+}
+.inputArea
+{
+    width:300px;
+    height:24px;
+}
+.AddFile
+{
+    width:200px;
+    height:20px;
+}
+.submit
+{
+    position:relative;
+    top:20px;
+    left:100px;
+    width:88px;
+    height:28px;
+    color:#f3e7fa;
+    cursor:pointer;
+    font:18px 微软雅黑 bold;
+    border:none;
+    background:#b580d2;
+}
+.AddNewTerm
+{
+    font-weight:bold;
+    position:relative;
+    top:2px; 
+    left:18px;
+}
+.AddNewTerm a
+{
+    color:#572286;
+}
+.AddNewTerm a:hover
+{
+    color:#9563c2;
+    text-decoration:underline;
+}
+#ajax_div1
+{
+    text-align: center;
+     position:relative;
+     top:40px;
+}

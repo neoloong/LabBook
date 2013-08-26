@@ -1,0 +1,65 @@
+﻿.AddCourse
+{
+    margin:50px 0px 100px 50px;
+    font:15px 微软雅黑;
+}
+.addbox
+{
+    margin-bottom:24px;
+}
+.addItem
+{
+     width:180px;
+    float:left;   
+    display:inline;
+    font:20px 微软雅黑;
+    color:#6e3594;
+    text-align:right;
+    padding-right:20px;
+}
+.inputArea
+{
+    width:300px;
+    height:24px;
+    font:16px 微软雅黑;
+}
+.submit
+{
+    position:relative;
+    top:30px;
+    left:180px;
+    width:100px;
+    height:32px;
+    color:#f3e7fa;
+    font:18px 微软雅黑 bold;
+    border:none;
+    background:#b580d2;
+    cursor:pointer;
+}
+#select1,#select2
+{
+    width:200px;
+    height:220px;
+    float:left;
+    font:16px 微软雅黑;
+}
+#AddOrDel
+{
+    float:left;
+    margin-top:40px;
+}
+#AddOrDel span
+{
+    margin-left:40px;
+    margin-right:40px;
+    display:block;
+    height:26px;
+    width:100px;
+    background:#b580d2;
+    color:#eeecf0;
+    font:16px 微软雅黑 bold;
+    margin-top:10px;
+    cursor:pointer;
+    text-align:center;
+    padding-top:5px;
+}

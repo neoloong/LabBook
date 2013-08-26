@@ -1,0 +1,57 @@
+﻿.CourseInfo
+{
+    margin:30px;
+    font:18px 微软雅黑;
+    line-height:38px;
+}
+span.item
+{
+    width:130px;
+    float:left;
+    margin-right:30px;
+    color:#6e3594;
+    text-align:right;
+}
+.BookingDetails
+{
+    width:880px;
+    background:#eee6f3;
+    margin:30px;
+    padding:30px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+.TimeLabel label
+{
+    color:#6e3594;
+    font:16px 微软雅黑;
+    font-weight:bold;
+}
+.TimeLabel select
+{
+    width:150px;
+    margin-left:30px;
+}
+.details
+{
+    width:880px;
+    margin-top:30px;   
+}
+.DetailBox
+{
+    width:100px;
+    height:50px;
+    background:#e2d3eb;
+    line-height:30px;
+    margin:10px;
+    padding:28px;
+    float:left;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+.CoursePhoto
+{
+    width:320px;
+    height:240px;
+    margin-left:50px;
+}

@@ -1,0 +1,42 @@
+﻿.title
+{
+    margin:20px;
+    font:20px 微软雅黑 bold;
+}
+.BulletinContent
+{
+    margin-top:50px;
+}
+.BulletinContent .item
+{
+    margin-top:30px;
+}
+.BulletinContent div label
+{
+    width:120px;
+    font:20px 微软雅黑;
+    float:left;
+    color:#6e3594;
+    margin-right:30px;
+    text-align:right;
+}
+ .myEditor
+{
+     width: 600px;
+     position:relative;
+     left:150px;
+}
+.submit
+{
+    position:relative;
+    top:60px;
+    left:640px;
+    width:88px;
+    height:28px;
+    color:#f3e7fa;
+    font:18px 微软雅黑 bold;
+    border:none;
+    margin-bottom:100px;
+    background:#b580d2;
+    cursor:pointer;
+}

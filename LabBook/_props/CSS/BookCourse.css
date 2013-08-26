@@ -1,0 +1,174 @@
+﻿#header
+{
+    height:116px;
+}
+.Box
+{
+    width:880px;
+    background:#e4e6e0;
+    margin:50px auto 0px;
+    padding-bottom:20px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    height:auto;
+}
+.HeadOfContent
+{
+    width:800px;
+    color:#000;
+    font-size:22px;
+    font-weight:bold;
+    position:relative;
+    top:20px;
+    left:30px;
+}
+.DescriptionContent
+{
+    width:800px;
+    margin:40px 60px;
+    
+}
+.PicOfExpriment
+{
+    width:227px;
+    height:170px;
+    float:left;
+}
+.description
+{
+    width:500px;
+    float:left;
+    color:#000;
+    margin-left:30px;
+    line-height:32px;
+}
+.DescriptionContent a.more
+{
+    color:#78a70d;
+    float:right;
+    position:relative;
+    top:26px;
+    left:-100px;
+    font-weight:bold;
+}
+.DescriptionContent a.teacherLink
+{
+    text-decoration:underline;
+    color:#000;
+}
+.DescriptionContent a:hover,.BookingChaining a:hover
+{
+    color:#2b3c05;
+}
+p.intro
+{
+    word-wrap: break-word; 
+    word-break: normal; 
+}
+
+.HeadOfBookingTime
+{
+    
+    margin:40px 0px 0px 60px;
+    color:#568a0f;
+    font-family:微软雅黑;
+    font-size:22px;
+    float:left;
+}
+.select
+{
+    float:left;
+    width:140px;
+    height:30px;
+    font-size:15px;
+    font-weight:bold;
+    color:#fff;
+    text-indent:10px;
+    font-family:微软雅黑;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    overflow: hidden;
+    margin:44px 0px 0px 20px;
+    background: url(../images/select_down.png) no-repeat right #839554;
+}
+#search
+{
+    position:relative;
+    top:50px;
+    left:20px;
+    color:#78a70d;
+    font-weight:bold;
+    cursor:pointer;
+    border-left:2px dotted #979896;
+    padding-left:10px;
+}
+#headOfBooking
+{
+    left:56px;
+}
+
+.Book
+{
+    width:780px;
+    margin:20px auto;
+}
+.isbooked
+{
+    position:relative;
+    top:-5px;
+    left:130px;
+    color:#678606;
+    font-weight:bold;
+}
+.BookBox
+{
+    width:165px;
+    height:120px;
+    float:left;
+    color:#000;
+    padding:20px;
+    margin-top:30px;
+    margin-left:30px;
+    background:#cdceca;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+}
+.BookBox span
+{
+    width:80px;
+    height:24px;
+    display:block;
+    float:left;  
+}
+.BookingChaining a
+{
+    position:relative;
+    top:10px;
+    left:110px;
+    color:#568a0f;
+    font-weight:bold;
+}
+.MessageBoard
+{
+     margin-top:30px;
+     padding:20px;
+     float:left;
+}
+
+.book
+{
+    cursor:pointer;
+}
+#headOfMessage
+{
+    float:left;
+    left:56px;
+    margin-top:30px;
+}
+#uyan_frame
+{
+    position:relative;
+    left:50px;
+    top:50px;
+    width:800px;
+}

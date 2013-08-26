@@ -1,0 +1,203 @@
+﻿/*基本样式*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, setion, header, article, nav
+{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+fieldset, img
+{
+    border: 0;
+}
+em, th, var
+{
+    font-style: normal;
+    font-weight: normal;
+}
+ol, ul
+{
+    list-style: none;
+}
+th
+{
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+a
+{
+    text-decoration: none;
+}
+img, input, select
+{
+    vertical-align: middle;
+}
+img
+{
+    border: none;
+}
+body
+{
+    font-family: 微软雅黑;
+    font-size: 100%;
+    color: #808080;
+    min-width: 980px;
+    background: #080808;
+}
+
+/********header**********/
+.ieAlarm
+{
+    margin:0 auto;
+    text-align:center;
+}
+#header
+{
+    width: 100%;
+    width: 986px;
+    height: 222px;
+    margin: 0 auto;
+}
+.wrapper p
+{
+    width: 315px;
+    height: 94px;
+    float: left;
+    text-indent: -9999px;
+    margin-top: 16px;
+    margin-left: 10px;
+    background: url(../images/logo.jpg) no-repeat;
+}
+.loginState
+{
+    width: 100px;
+    height: 18px;
+    float: right;
+    position: relative;
+    top: 10px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    clear: both;
+}
+
+.log
+{
+    color: #74bc02;
+}
+.nav
+{
+    float: left;
+    width: 578px;
+    margin-left: 82px;
+    margin-top: 16px;
+}
+.menu
+{
+    padding: 25px 0 0 0;
+    float: right;
+}
+.menu li
+{
+    float: left;
+    position: relative;
+    background: url(../images/menu-spacer.gif) left top no-repeat;
+}
+.menu li:first-child
+{
+    background: none;
+}
+.menu li a
+{
+    display: inline;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 2em;
+    padding: 8px 28px 9px 18px;
+    color: #fff;
+}
+.menu li a.active, .menu > li > a:hover
+{
+    color: #60b001;
+}
+
+
+/*********content***********/
+
+#content
+{
+    width: 100%;
+    padding: 25px 0 42px;
+    background: url(../images/content-bg.jpg) repeat-y #f4f5f7;
+}
+.main
+{
+    width: 986px;
+    margin: 0 auto;
+}
+.fix
+{
+    zoom: 1;
+}
+.fix:after
+{
+    display: block;
+    content: 'clear';
+    clear: both;
+    line-height: 0;
+    visibility: hidden;
+}
+/**********footer*********/
+#footer
+{
+    width: 986px;
+    margin: 0 auto;
+}
+.copyright
+{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px dotted #808080;
+}
+.state
+{
+    display: block;
+    margin-bottom: 5px;
+}
+.state .sicun
+{
+    color: #2988C8;
+}
+
+.state a
+{
+    color: #808080;
+}
+
+.text
+{
+    font-weight: bold;
+}
+
+.state a:hover
+{
+    color: #EF9A53;
+}
+
+
+.warning
+{
+    height: 30px;
+    background: #FFD42A;
+    line-height: 30px;
+}

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeleteBulletin.aspx.cs" Inherits="LabBook.Manage.DeleteBulletin" %>

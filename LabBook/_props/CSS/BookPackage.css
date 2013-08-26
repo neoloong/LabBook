@@ -1,0 +1,103 @@
+﻿#header
+{
+    height:116px;
+}
+.Box
+{
+    width:880px;
+    background:#e4e6e0;
+    margin:50px auto 0px;
+    padding-bottom:25px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    height:auto;
+}
+.isbooked
+{
+    position:relative;
+    top:-5px;
+    left:-100px;
+    color:#678606;
+    font-weight:bold;
+}
+.HeadOfContent
+{
+    width:800px;
+    color:#000;
+    font-size:22px;
+    font-weight:bold;
+    position:relative;
+    top:20px;
+    left:30px;
+}
+.DescriptionContent
+{
+    width:800px;
+    margin:40px 60px;
+    
+}
+.PicOfExpriment
+{
+    width:227px;
+    height:170px;
+    float:left;
+}
+.description
+{
+    width:500px;
+    float:left;
+    color:#000;
+    margin:10px 30px;
+}
+.DescriptionContent a
+{
+    color:#78a70d;
+    float:right;
+    position:relative;
+    top:80px;
+    left:-100px;
+    font-weight:bold;
+}
+.DescriptionContent a:hover
+{
+    color:#2b3c05;
+}
+p.intro
+{
+    word-wrap: break-word; 
+    word-break: normal; 
+}
+.BookBox
+{
+    width:165px;
+    height:120px;
+    float:left;
+    color:#000;
+    padding:20px;
+    margin-top:30px;
+    margin-left:30px;
+    background:#cdceca;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+}
+.BookBox span
+{
+    width:80px;
+    height:24px;
+    display:block;
+    float:left;  
+}
+.bookingbutton a
+{
+    color:#78a70d;
+    position:relative;
+    top:10px;
+    left:100px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.bookingbutton a:hover
+{
+    color:#2b3c05;
+}
+

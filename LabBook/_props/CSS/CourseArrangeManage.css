@@ -1,0 +1,51 @@
+﻿.heading
+{
+    margin:50px;
+}
+.courseName
+{
+    font-size:16px;
+    font-weight:bold;
+    display:inline;
+    
+}
+.addArrange
+{
+    margin-left:20px;
+}
+.addArrange:hover,#search:hover
+{
+    text-decoration:underline;
+    color:#9563c2;
+    font-weight:bold;
+}
+.check
+{
+    margin-left:50px;
+}
+.choseTime
+{
+    width:180px;  
+    display:inline;
+    font:20px 微软雅黑;
+    color:#6e3594;
+    text-align:right;
+    padding-right:20px;
+}
+.check select
+{
+    margin-right:20px;
+    width:140px;
+}
+#search
+{
+    color:#9563C2;
+}
+#arrange-list
+{
+    width:700px;
+}
+#loading
+{
+    text-align:center;
+}

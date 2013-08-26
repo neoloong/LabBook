@@ -1,0 +1,240 @@
+﻿html
+{
+    background: #63bad8;
+}
+body
+{
+    padding: 0px;
+    margin:0 auto;
+    width: 840px;
+}
+#wrapper
+{
+    width: 800px;
+    padding: 0 20px 0 20px;
+    position:absolute;
+    top:15%;
+}
+#LoginFrame
+{
+    width: 800px;
+    background-color: #fff;
+    text-align: left;
+}
+
+#header
+{
+    width: 780px;
+    background: #c5e6ea;
+    padding: 15px 0 15px 20px;
+    border-bottom: #b2ccd0 solid 1px;
+}
+h1
+{
+    display: inline;
+    width: 220px;
+    color: #083d56;
+    font: bold 24px 微软雅黑;
+}
+
+#darkbanner
+{
+    margin: 20px 0 0 -18px;
+    padding: 8px 10px 10px 40px;
+    background: #424242;
+    position: relative;
+}
+#darkbannerwrap
+{
+    background: url(../images/aiwrap.png);
+    width: 18px;
+    height: 10px;
+    margin: 0 0 20px -18px;
+    position: relative;
+}
+
+.banner320
+{
+    width: 320px;
+}
+
+h2
+{
+    font: bold 24px helvetica, arial, sans-serif;
+    color: #fff;
+    display: inline;
+    margin-left: 10px;
+}
+
+fieldset
+{
+    padding: 50px 20px;
+    display: block;
+    position: relative;
+}
+
+.form button
+{
+    display: block;
+    float: left;
+    margin: 0 7px 0 160px;
+    background-color: #92c97c;
+    font-family: "Lucida Grande" , Tahoma, Arial, Verdana, sans-serif;
+    font-size: 100%;
+    line-height: 130%;
+    text-decoration: none;
+    font-weight: bold;
+    color: #e8f7df;
+    cursor: pointer;
+    padding: 5px 10px 6px 7px; /* Links */
+    margin-left: 82px;
+}
+
+.form button[type]
+{
+    padding: 5px 10px 5px 7px; /* Firefox */
+    line-height: 17px; /* Safari */
+}
+*:first-child + html button[type]
+{
+    padding: 4px 10px 3px 7px; /* IE7 */
+}
+.form button img, .buttons a img
+{
+    margin: 0 6px -3px 0 !important;
+    padding: 0;
+    border: none;
+    width: 16px;
+    height: 16px;
+    text-decoration: none;
+}
+button:hover
+{
+    background-color: #e8f7df;
+    border: 1px solid #92c97c;
+    color: #31940c;
+}
+
+/* LOGIN */
+
+
+
+
+/*.tourist
+{
+    position:fixed;
+    bottom:15px;
+    right:60px;
+    color:#FFFFFF;
+    font-family:微软雅黑;
+    font-size:30px;
+    text-decoration:none;
+    padding-left:10px;
+    padding-right:13px;
+    /*border-left:2px dotted #C5E6EA;*/
+    /*background: url(../images/passenger.png) no-repeat;
+    width:132px;
+    height:149px;
+    text-indent:-9999px;
+    background-color:#3fa156;
+    font-weight: bold;
+    
+    cursor: pointer; 
+    border:3px solid #ffffff;
+    
+}
+.tourist:hover
+{
+    background-color: #FFFFFF;
+    border: 3px solid Teal;
+    color: Teal;   
+} */
+
+body#log_in
+{
+    width: 410px;
+    margin-top: 100px;
+}
+body#log_in #wrappertop
+{
+    width: 370px;
+}
+body#log_in #wrapper
+{
+    width: 370px;
+    position:absolute;
+    top:30%;
+    padding: 0 20px 0 20px;
+}
+body#log_in #LoginFrame
+{
+    width: 370px;
+}
+body#log_in #header
+{
+    width: 350px;
+}
+body#log_in fieldset
+{
+    width: 330px;
+    border: 0;
+    margin: 0px;
+    display: block;
+    margin-top: -30px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+.form p label
+{
+    position: absolute;
+    left: 30px;
+    margin-top: 3px;
+    cursor: text;
+    font: 16px 微软雅黑;
+    color: #555;
+}
+.error1, .error2
+{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 300px;
+    font-size: 12px;
+    color: #c42e1a;
+    display: none;
+}
+body .form input
+{
+    height: 20px;
+    width: 228px;
+    margin-bottom: 15px;
+    padding: 3px;
+    font: 16px 微软雅黑;
+}
+body#log_in .form button
+{
+    display: block;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+}
+#forgottenpassword
+{
+    margin-top: 30px;
+    font-size: 12px;
+}
+#forgottenpassword a
+{
+    color: #333333;
+}
+#forgottenpassword a:hover
+{
+    color: #104b67;
+}
+#forgottenpassword li
+{
+    display: inline;
+    margin-left: 10px;
+}

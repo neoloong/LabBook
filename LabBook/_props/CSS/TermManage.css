@@ -1,0 +1,28 @@
+﻿.title
+{
+    margin:20px;
+    font:20px 微软雅黑 bold;
+}
+.term
+{
+    width:800px;
+    margin:50px 0px 0px 50px;
+    font:18px 微软雅黑 bold;
+    background:#eee6f3;
+    border:#9f8da5 1px solid;
+    padding:5px 20px;
+}
+.term select
+{
+    width:150px;
+}
+.term a
+{
+    color:#6e3594;
+    margin-left:30px;
+}
+.term a:hover
+{
+    color:#9f8da5;
+    text-decoration:underline;
+}
